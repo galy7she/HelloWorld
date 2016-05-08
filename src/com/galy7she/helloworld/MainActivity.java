@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity {
 	private Button btLogin;
-	//假设用户名是admin，匹配的密码是123456
+	//假设用户名是admin，匹配的密码是123456.
 	//完成用户登录的验证，并使用Toast提示“”登陆成功“或者”登陆失败“
 	private EditText etUsername;
 	private EditText etPassword;
