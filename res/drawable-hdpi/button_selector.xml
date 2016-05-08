@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+     <!-- 当按下状态时 -->
+    <item 
+        android:drawable="@drawable/button_shape_pressed" 
+        android:state_pressed="true">
+    </item>
+    
+    <!-- 当禁止使用时 -->
+    <item 
+        android:state_enabled="false"
+        android:drawable="@drawable/button_shape_disabled"
+        ></item>
+
+    <!-- 没有定义任何state表示满足所有state -->
+    <item 
+        android:drawable="@drawable/button_shape">
+    </item>
+
+
+   
+    
+</selector>
